@@ -60,7 +60,8 @@
               "type": "debit"
             }
   ],
-  "profile": {
+  "profile": [
+              {
               "name": "John Doe",
               "username": "johndoe123",
               "email": "john.doe@example.com",
@@ -68,4 +69,38 @@
               "balance": 1250000,
               "avatar": "https://via.placeholder.com/150"
               }
+  ],
+  "users": [
+    {
+      "id": "1341",
+      "name": "arsil syahrowi",
+      "firstName": "arsil",
+      "lastName": "syahrowi",
+      "email": "arsilsyahrowi@gmail.com",
+      "username": "arsil",
+      "password": "Terano88",
+      "balance": 0,
+      "description": "New user",
+      "avatar": "https://i.pravatar.cc/150?img=58",
+      "transactions": []
+    }
+  ],
+  "barang": [
+    {
+      "id": 1,
+      "kode": "BRG001",
+      "nama": "Laptop ASUS",
+      "harga": 8500000,
+      "stok": 15,
+      "kategori": "Elektronik"
+    },
+    {
+      "id": 2,
+      "kode": "BRG002",
+      "nama": "Meja Kerja",
+      "harga": 1200000,
+      "stok": 8,
+      "kategori": "Furniture"
+    }
+  ]
 }
